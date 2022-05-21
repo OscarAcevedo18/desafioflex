@@ -1,0 +1,111 @@
+html,
+body {
+  margin: 0%;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.principal-chat {
+  flex-direction: column;
+  background-color: #69d2ad;
+  width: 25%;
+  border: #3f28d5 2px solid;
+  font-family: "Roboto", sans-serif;
+}
+
+.principal-chat img {
+  display: flex;
+  justify-content: space-around;
+  width: 2.5rem;
+  height: 3.5rem;
+  border-radius: 150%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: #3f28d5;
+}
+
+.line {
+  display: flex;
+  background-color: #3f28d5;
+  margin-top: 0%;
+  margin-bottom: 0.5%;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.userbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.userbox h4,
+p {
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.boton button {
+  background-color: #ce6947;
+  color: white;
+  width: 65%;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 99%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.boxes h4,
+p {
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.boxes img {
+  margin-left: 2rem;
+}
+
+.central-chat {
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-family: "Work Sans", sans-serif;
+  background-image: url("../img/fondowsp.jpg");
+  width: 100%;
+}
+
+.central-img {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 15%;
+}
